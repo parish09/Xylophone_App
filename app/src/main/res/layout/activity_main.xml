@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#D11656"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/red"
+            android:layout_marginTop="10dp"
+            android:background="@color/red"
+            android:layout_width="match_parent"
+            android:layout_marginBottom="2dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="14"
+            android:onClick="playRed"
+             />
+
+        <Button
+            android:id="@+id/blue"
+            android:background="@color/blue"
+            android:layout_marginBottom="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="14"
+            android:layout_marginRight="3dp"
+            android:layout_marginLeft="3dp"
+            android:onClick="playBlue"
+             />
+
+        <Button
+            android:id="@+id/green"
+            android:background="@color/green"
+            android:layout_marginBottom="2dp"
+            android:layout_width="match_parent"
+            android:layout_marginRight="6dp"
+            android:layout_marginLeft="6dp"
+            android:layout_weight="14"
+            android:layout_height="wrap_content"
+            android:onClick="playGreen"
+            />
+
+        <Button
+            android:id="@+id/maroon"
+            android:background="@color/maroon"
+            android:layout_marginBottom="2dp"
+            android:layout_width="match_parent"
+            android:layout_marginRight="9dp"
+            android:layout_marginLeft="9dp"
+            android:layout_weight="14"
+            android:layout_height="wrap_content"
+            android:onClick="playMaroon"
+             />
+
+        <Button
+            android:id="@+id/orange"
+            android:background="@color/orange"
+            android:layout_marginBottom="2dp"
+            android:layout_width="match_parent"
+            android:layout_marginRight="12dp"
+            android:layout_marginLeft="12dp"
+            android:layout_weight="14"
+            android:layout_height="wrap_content"
+            android:onClick="playOrange"
+           />
+
+        <Button
+            android:id="@+id/purple"
+            android:background="@color/purple"
+            android:layout_marginBottom="2dp"
+            android:layout_weight="14"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="playPurple"
+           />
+
+        <Button
+            android:id="@+id/yellow"
+            android:layout_marginBottom="10dp"
+            android:background="@color/yellow"
+            android:layout_width="match_parent"
+            android:layout_marginRight="18dp"
+            android:layout_marginLeft="18dp"
+            android:layout_weight="14"
+            android:layout_height="wrap_content"
+            android:onClick="playYellow"
+            />
+    </LinearLayout>
+</androidx.appcompat.widget.LinearLayoutCompat>
